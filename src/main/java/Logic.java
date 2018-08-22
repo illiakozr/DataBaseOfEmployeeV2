@@ -83,7 +83,7 @@ public class Logic {
                         + resultSet.getString(5) + "; " + resultSet.getString(6) + "; "
                         + resultSet.getString(7) + "; " + resultSet.getInt(8) + "; "
                         + resultSet.getInt(9) + "; " + resultSet.getString(10) + "; "
-                        + resultSet.getBigDecimal(11) + resultSet.getString(12) + "; "
+                        + resultSet.getBigDecimal(11)+ "; " + resultSet.getString(12) + "; "
                         + resultSet.getString(13));
             }
             if (!searchFlag){
